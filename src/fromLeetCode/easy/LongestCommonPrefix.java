@@ -5,7 +5,7 @@ public class LongestCommonPrefix {
 
     public static void main(String[] args) {
 
-        System.out.println(longestCommonPrefix2(new String[]{"flowererer", "flower", "flow", "flowht"}));
+        System.out.println(longestCommonPrefix5(new String[]{"flowererer", "flower", "flow", "flowht"}));
 
     }
 
@@ -138,4 +138,32 @@ public class LongestCommonPrefix {
 
 
     }
+
+    //Runtime: 4 ms, faster than 30.80% of Java online submissions for Longest Common Prefix.
+    //Memory Usage: 44.2 MB, less than 7.37% of Java online submissions for Longest Common Prefix.
+    public static String longestCommonPrefix5(String[] strs) {
+
+        String result = "";
+
+        for (int i = 0; i < strs[0].length(); i++) {
+
+            String point ="" + strs[0].charAt(i);
+
+            for (int j = 0; j < strs.length; j++) {
+
+                if (i>=strs[j].length() || !("" + strs[j].charAt(i)).equals(point)){
+                    return result;
+                }
+
+
+            }
+
+            result += point;
+
+        }
+
+        return result;
+
+    }
+
 }
