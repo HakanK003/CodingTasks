@@ -1,4 +1,4 @@
-package fromLeetCode.easy;
+package fromLeetCode.medium;
 
 public class IntegerToRoman {
 
