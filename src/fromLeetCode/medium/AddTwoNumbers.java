@@ -1,8 +1,4 @@
-package fromLeetCode.easy;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+package fromLeetCode.medium;
 
 public class AddTwoNumbers {
 
