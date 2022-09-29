@@ -3,6 +3,46 @@ package fromLeetCode.medium;
 public class LongestPalindromicSubstring {
 
 
+    //expanding approach
+    //Runtime: 42 ms, faster than 54.02% of Java online submissions for Longest Palindromic Substring.
+    //Memory Usage: 52.2 MB, less than 34.76% of Java online submissions for Longest Palindromic Substring.
+    public String longestPalindrome3(String s) {
+
+        if (s == null || s.length() < 2) {
+            return s;
+        }
+
+        String result = "";
+
+        for (int i = 0; i < s.length() - 1; i++) {
+            //for odd length
+            String str1 = getPalin(s, i, i);
+            //for even length
+            String str2 = getPalin(s, i, i + 1);
+            if (str1.length() > result.length()) {
+                result = str1;
+            }
+            if (str2.length() > result.length()) {
+                result = str2;
+            }
+        }
+
+        return result;
+    }
+
+    private String getPalin(String s, int l , int r) {
+
+        while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
+            l--;
+            r++;
+        }
+
+        return s.substring(l + 1, r);
+
+    }
+
+
+
     public String longestPalindrome2(String s) {
 
         String resultRight = "";
