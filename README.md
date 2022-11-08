@@ -1,7 +1,7 @@
 # CodingTasks
 
 
-###Problems From LeetCode
+### Problems From LeetCode
 
 - My LeetCode Profile https://leetcode.com/HakanK003/
 
@@ -14,7 +14,7 @@
 
 
 
-###Coding tasks from my old repositories
+### Coding tasks from my old repositories
 
 - These repositories moved to [CodingTasks](https://github.com/HakanK003/CodingTasks/) repository 
 
