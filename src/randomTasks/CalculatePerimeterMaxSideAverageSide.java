@@ -1,4 +1,4 @@
-package fromCoursera.javaDukeSanDiego;
+package randomTasks;
 
 
 
