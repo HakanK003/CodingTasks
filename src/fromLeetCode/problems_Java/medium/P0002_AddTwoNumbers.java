@@ -33,6 +33,7 @@ package fromLeetCode.problems_Java.medium;
     -> It is guaranteed that the list represents a number that does not have leading zeros.
  */
 
+// Definition for singly-linked list.
 class ListNode {
       int val;
       ListNode next;
