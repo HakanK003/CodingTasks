@@ -38,9 +38,9 @@ import java.util.Map;
 
 
 /**
- * Approach 1 -> Math with While Loop
+ * Approach 1 -> LinkedList with While Loop
  *
- *   Loop trough String and add chars to LinkedList. If List already contains char
+ *   Loop trough String and add chars to LinkedList. If List already contains char, remove elements till char gone.
  *
  * Time Complexity -> O(n)
  *
