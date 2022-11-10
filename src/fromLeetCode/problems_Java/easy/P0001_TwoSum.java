@@ -54,7 +54,7 @@ import java.util.HashMap;
  *   Runtime: 278 ms, faster than 5.07% of Java online submissions for Two Sum.
  *   Memory Usage: 44.9 MB, less than 68.11% of Java online submissions for Two Sum.
  */
-class Solution {
+class Solution0001_1 {
     public int[] twoSum(int[] nums, int target) {
 
         for(int i=0; i<nums.length; i++){
@@ -87,11 +87,10 @@ class Solution {
  *   Put values to map n times
  *
  * Result
- *   Version 1
  *   Runtime: 6 ms, faster than 75.37% of Java online submissions for Two Sum.
  *   Memory Usage: 46 MB, less than 19.22% of Java online submissions for Two Sum.
  */
-class Solution2 {
+class Solution0001_2 {
     public int[] twoSum(int[] nums, int target) {
 
         HashMap<Integer, Integer> pairs = new HashMap<>();
