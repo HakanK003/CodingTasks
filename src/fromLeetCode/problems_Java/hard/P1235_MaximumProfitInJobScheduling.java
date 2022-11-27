@@ -1,4 +1,4 @@
-package fromLeetCode.problems_Java.medium;
+package fromLeetCode.problems_Java.hard;
 
 import java.util.Arrays;
 import java.util.TreeMap;
