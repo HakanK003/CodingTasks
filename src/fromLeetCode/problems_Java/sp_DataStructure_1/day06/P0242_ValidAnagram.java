@@ -4,30 +4,30 @@ package fromLeetCode.problems_Java.sp_DataStructure_1.day06;
     Related Topics
     -> Hash Table
     -> String
-    -> Counting
+    -> Sorting
 
     Problem
-    -> https://leetcode.com/problems/ransom-note/
+    -> https://leetcode.com/problems/valid-anagram/
 
-        Given two strings ransomNote and magazine,
-        return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
-        Each letter in magazine can only be used once in ransomNote.
+        Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+        An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+        typically using all the original letters exactly once.
 
 
     Examples
     -> Example 1
-            Input: ransomNote = "a", magazine = "b"
-            Output: false
-    -> Example 2
-            Input: ransomNote = "aa", magazine = "ab"
-            Output: false
-    -> Example 3
-            Input: ransomNote = "aa", magazine = "aab"
+            Input: s = "anagram", t = "nagaram"
             Output: true
+    -> Example 2
+            Input: s = "rat", t = "car"
+            Output: false
 
     Constraints
-    -> 1 <= ransomNote.length, magazine.length <= 10^5
-    -> ransomNote and magazine consist of lowercase English letters.
+    -> 1 <= s.length, t.length <= 5 * 10^4
+    -> s and t consist of lowercase English letters.
+
+    Notes
+     * Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
  */
 
 /**
